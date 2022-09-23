@@ -1,0 +1,54 @@
+.welcome{
+    position: relative;
+    background-color: lightblue;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.bottomleft{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.topright{
+    position: absolute;
+    background-color: blueviolet;
+    height: 50px;
+    width: 50px;
+    top: 0px;
+    right: 0px;
+}
+
+.yellow{
+    position: relative;
+    background-color: yellow;
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.green{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+
+}
+
+h1{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+ul{
+    position: absolute;
+    margin-top: 60px;
+}
