@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.shell{
+    position: relative;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    margin-left: 30px;
+    height: 200px;
+    width: 150px;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;   
+}
+
+.bluebox{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    background-color: lightblue;
+    bottom: 0px;
+    right: 0px;
+}
+
+.blackbox1{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+}
+
+.blackbox2{
+    position: absolute;
+    height: 100px;
+    width: 120px;
+    background-color: black;
+    bottom: 0px;
+    left: -60px;
+}

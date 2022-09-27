@@ -1,0 +1,56 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.topleftbox{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: lightblue;
+    top: 0px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strip{
+    position: relative;
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: end;
+}
+
+.centerbox{
+    height: 120px;
+    width: 120px;
+    background-color: darkblue;
+}
+
+.greenbox{
+    position: relative;
+    margin-left: 30px;
+    height: 200px;
+    width: 150px;
+    background-color: lightgreen;
+}
+
+.orangebox{
+    position: absolute;;
+    bottom: 0px;
+    left: 0px;
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+}
+
+.bottomright{
+    position: absolute;
+    background-color: plum;
+    height: 150px;
+    width: 150px;
+    bottom: -75px;
+    right: -75px;
+}

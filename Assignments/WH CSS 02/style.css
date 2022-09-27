@@ -1,0 +1,68 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    margin-left: 10px;
+    position: absolute;
+    height: 200px;
+    width: 150px;
+    background-color: lightgreen;
+}
+
+.shell{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-color: lightblue;
+}
+
+.left{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    background-color: lightblue;
+}
+
+.rightcorner{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    right: 0px;
+    bottom: 0px;
+}
+
+.leftcorner{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    left: 0px;
+    bottom: 0px;
+}
+
+.bottomright{
+    position: fixed;
+    height: 150px;
+    width: 170px;
+    right: 0px;
+    bottom: 0px;
+    background-color: lightgreen;
+}
+
+.blackcorner{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    right: 0px;
+    bottom: 0px;
+}
