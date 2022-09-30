@@ -1,0 +1,85 @@
+
+.header{
+    background-color: #a00c0c;
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: red;
+    width: 80%;
+    height: 120px;
+}
+
+.header2{
+    background-color: #a00c0c;
+    width: 80%;
+    height: 60px;
+}
+
+.main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.information{
+    background-color: white;
+    width: 70%;
+    height: 200px;
+    margin-top: -70px;
+    z-index: 1;
+}
+
+.Rona{
+    margin-left: 20px;
+    color: gray;
+}
+
+.titletext{
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+#text{
+    font-family: "ORF ON",Arial,Helvetica,Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-feature-settings: "liga", "kern";
+}
+
+.headerleft{
+    color: white;
+    width: 80%;
+    height: 40px;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.headerright{
+    color: white;
+    display: flex;
+    width: auto;
+    margin-right: 10px;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+}
+
+.headerlist{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    margin: 0px;
+    align-items: center;
+}

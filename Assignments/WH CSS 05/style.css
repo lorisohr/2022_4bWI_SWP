@@ -37,7 +37,7 @@ body{
     width: 400px;
     height: 100px;
     background-color: orange;
-    bottom: 0px;
+    bottom: -1px;
     border: 1px solid black;
     left: -1px;
 }
