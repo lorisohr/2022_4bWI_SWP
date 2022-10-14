@@ -1,0 +1,23 @@
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: #454848;
+    font-family: consolas;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+#content
+{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    margin-right: 10px;
+}

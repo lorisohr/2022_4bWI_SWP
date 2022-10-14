@@ -1,0 +1,27 @@
+body{
+    background-color: #454846;
+    color: white;
+    font-family: consolas;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+input{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.result{
+    display:flex;
+    justify-content: center;
+}

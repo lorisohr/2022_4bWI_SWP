@@ -1,5 +1,3 @@
-
-
 function OnButtonClick(obj)
 {
     var id = obj.id;
@@ -24,6 +22,5 @@ function OnButtonClick(obj)
         result = num1 / num2;
     }
     console.log(result);
-    document.getElementById("resulttext").textContent = result;
-    
+    document.getElementById("resulttext").textContent = result; 
 }
