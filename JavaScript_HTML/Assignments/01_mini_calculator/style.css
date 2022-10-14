@@ -1,0 +1,29 @@
+body{
+    font-family: consolas;
+    background-color: #454846;
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    width: 100px;
+    margin: 10px;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 240px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+}
