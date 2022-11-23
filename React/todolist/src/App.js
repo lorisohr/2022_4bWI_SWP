@@ -1,23 +1,44 @@
 import logo from './logo.svg';
 import './App.css';
+import AddTask from './components/addtask';
+import Task from './components/task';
+import Header from './components/header';
+import ToDoList from './components/ToDoList';
+import { useState } from 'react';
+import {useEffect} from 'react';
 
-function App() {
+const App = () => {
+  const [toDos, setToDos] = useState([
+    {
+    "id":1,
+    "name":"einkaufen",
+    "done": false
+    },
+    {
+      "id":2,
+      "name":"hilfe",
+      "done": false
+    }
+  ])
+
+  const addTask = (value) => {
+    let todo = {
+      id: 1,
+      name: value,
+      done: false
+    };
+
+    let todos = toDos;
+    todos.push(todo);
+    setToDos([...todos]);
+    console.log(toDos);
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <AddTask onTaskAdded={addTask}/>
+      <ToDoList tasks={toDos}/>
     </div>
   );
 }
