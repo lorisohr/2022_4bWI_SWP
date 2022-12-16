@@ -1,0 +1,45 @@
+.alien {
+    position: relative;
+    width: 100px;
+    height: 200px;
+    background-color: green;
+  }
+  
+  .alien-head {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: black;
+  }
+  
+  .alien-eyes {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .alien-mouth {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+    height: 20%;
+    background-color: red;
+  }
+  
+  .alien-arms {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background-color: green;
+  }
+  

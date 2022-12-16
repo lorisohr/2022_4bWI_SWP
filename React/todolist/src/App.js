@@ -1,11 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import AddTask from './components/addtask';
-import Task from './components/task';
 import Header from './components/header';
 import ToDoList from './components/ToDoList';
 import { useState } from 'react';
-import {useEffect} from 'react';
+
 
 const App = () => {
   const [toDos, setToDos] = useState([
